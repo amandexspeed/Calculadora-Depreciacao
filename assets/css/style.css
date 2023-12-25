@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(36,40,77,1) 100%);
+
+
+}
+
+main{
+
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+
+
+}
+
+.btn-radio{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-radio label{
+
+    padding: 5%;
+
+}
+
+.Calc{
+
+    display: none;
+    
+
+}
+
+.Calc form,.Calc div{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.Calc label{
+
+    padding-top: 2%;
+    padding-bottom: 2%;  
+
+}
+
+.Calc p{
+
+    padding-top: 2.1%;
+    padding-bottom: 0.2%;  
+    font-weight: 800;
+    font-size: 1.1rem;
+
+}
+
+#check{
+
+
+    padding-bottom: 1.5%;
+
+}
+
+#check input[type="checkbox"]:checked::after{
+
+    padding-top: 2%;
+    padding-bottom: 2%;    
+
+} 
+
+#tipoObj,#checkObs{
+
+    display: none;
+
+}
+
+#temp{
+
+    padding-top: 0%;
+
+}
+
+.btn{
+
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+    margin: 3%;
+    outline-color: white;
+    outline-style:groove;
+    outline-width: 1px;
+    background: none;
+    color: white;
+
+}
+
+.btn:hover{
+
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+
+}
